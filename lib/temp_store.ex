@@ -108,6 +108,7 @@ defmodule TempStore do
         [{^key, value}] -> value
         _ -> nil
       end
+
     {:reply, value, state}
   end
 
