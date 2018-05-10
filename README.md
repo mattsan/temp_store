@@ -1,6 +1,6 @@
 # TempStore
 
-**TODO: Add description**
+バックエンドに ETS を使った一時記憶です。
 
 ## Installation
 
@@ -10,12 +10,7 @@ by adding `temp_store` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:temp_store, "~> 0.1.0"}
+    {:temp_store, "~> 0.1", github: "mattsan/temp_store"}
   ]
 end
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/temp_store](https://hexdocs.pm/temp_store).
-

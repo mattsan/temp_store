@@ -8,6 +8,15 @@ defmodule TempStore.MixProject do
       elixir: "~> 1.6",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
+
+      # Docs
+      name: "TempStore",
+      source_url: "https://github.com/mattsan/temp_store",
+      homepage_url: "https://github.com/mattsan/temp_store",
+      docs: [
+        main: "readme",
+        extras: ["README.md"]
+      ],
       aliases: aliases()
     ]
   end
